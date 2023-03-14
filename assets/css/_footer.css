@@ -1,0 +1,75 @@
+@media screen and (min-width: 1024px){
+    .footer{
+        margin-top: 150px;
+    }
+    .footer h3{
+        font-size: 40px;
+    }
+}
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 1px solid #ddd;
+    
+}
+.footer .logo img:first-child{
+    margin-right: 20px;
+} 
+.footer h3{
+    color: #212353;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: #4B5D68;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+}
+.footer .logo{
+    display: block;
+    margin-bottom: 67px;
+}
+.footer address{
+    color: #212353;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    margin-bottom: 10px;
+
+}
+.footer .footer-menu-title{
+    color: #212353;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;  
+    margin-bottom: 30px;
+}
+
+.footer-menu-list .footer-menu-link{
+    display: block;
+    font-size: 16px;
+    line-height: 250%;
+
+}
+.social-media-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.social-media-list .social-media-item{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.social-media-list .social-media-item .social-media-link{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    
+}
